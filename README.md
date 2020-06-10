@@ -110,7 +110,7 @@ st.balloons()
 
 
 ## Reference
-* [official site](https://www.streamlit.io/)
+* [Official site](https://www.streamlit.io/)
 * [Docs](https://docs.streamlit.io/en/latest/)
 
 ## Deployment
