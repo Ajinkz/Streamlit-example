@@ -43,3 +43,49 @@ chart_data = pd.DataFrame(
 st.line_chart(chart_data)
 ```
 ![show tables from dataframe](/images/3.gif)
+
+### Maps
+
+```
+# map
+map_data = pd.DataFrame(
+    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+    columns=['lat', 'lon'])
+
+st.map(map_data)
+```
+![show maps](/images/4_map.gif)
+
+### Checkbox/sidebar widgets
+
+```
+# checkboxes
+if st.checkbox('Show chart'):
+    chart_data = pd.DataFrame(
+       np.random.randn(20, 3),
+       columns=['a', 'b', 'c'])
+
+    st.line_chart(chart_data)
+
+# selectbox
+option = st.selectbox(
+    'Which number do you like best?',
+     df['first column'])
+
+'You selected: ', option
+
+# sidebar widget
+option1 = st.sidebar.selectbox(
+    'Which number do you like best?',
+     df['second column'])
+
+'You selected:', option1
+```
+![show checkbox/sidebar widgets](/images/5_checkbox_dropdown.gif)
+
+### Animation
+
+```
+![Display animation](/images/5_animate.gif)
+
+```
