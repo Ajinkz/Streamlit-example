@@ -2,7 +2,7 @@
 Streamlit’s open-source app framework is the easiest way to create beautiful apps 
 
 ### Hello world
-```
+```python
 import streamlit as st
 
 st.title('Hello World,')
@@ -11,7 +11,7 @@ st.write("It's streamlit app")
 ![Hello streamlit](/images/0.jpg)
 
 ### Dropdown list
-```
+```python
 st.write("Pick up one")
 keys = ['Normal','Uniform']
 dist_key = st.selectbox('Which Distribution do you want?',keys)
@@ -21,7 +21,7 @@ print(dist_key)
 ![Dropdown list](/images/1.gif)
 
 ### Tables/dataframe 
-```
+```python
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
   'second column': [10, 20, 30, 40]
@@ -33,8 +33,7 @@ df
 ![show tables from dataframe](/images/2.JPG)
 
 ### Charts
-
-```
+```python
 # display line chart
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
@@ -45,8 +44,7 @@ st.line_chart(chart_data)
 ![show tables from dataframe](/images/3.gif)
 
 ### Maps
-
-```
+```python
 # map
 map_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
@@ -57,8 +55,7 @@ st.map(map_data)
 ![show maps](/images/4_map.gif)
 
 ### Checkbox/sidebar widgets
-
-```
+```python
 # checkboxes
 if st.checkbox('Show chart'):
     chart_data = pd.DataFrame(
@@ -84,8 +81,7 @@ option1 = st.sidebar.selectbox(
 ![show checkbox/sidebar widgets](/images/5_checkbox_dropdown.gif)
 
 ### Animation
-
-```
+```python
 # animate
 progress_bar = st.progress(0)
 status_text = st.empty()
