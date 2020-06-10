@@ -82,6 +82,51 @@ option1 = st.sidebar.selectbox(
 ```
 ![show checkbox/sidebar widgets](/images/5_checkbox_dropdown.gif)
 
+### Progress & status
+```python
+# initialise placeholder
+my_placeholder = st.empty()
+# assign a value
+my_placeholder.text("Loading ...")
+# progress bar
+my_bar = st.progress(0)
+
+for percent_complete in range(100):
+    time.sleep(0.1)
+    my_bar.progress(percent_complete + 1)
+
+# update value after some event
+my_placeholder.text("Loading completed !")
+
+# error message
+st.error('This is an error')
+
+# warnings
+st.warning('This is a warning')
+
+# show information
+st.info('This is a purely informational message')
+
+# success
+st.success('This is a success message!')
+
+# exceptions
+e = RuntimeError('This is an exception of type RuntimeError')
+st.exception(e)
+
+# help
+st.help(time)
+
+# spinner
+with st.spinner('Wait for it...'):
+    time.sleep(5)
+st.success('The End!')
+
+# Balloons
+st.balloons()
+```
+![Progress & status](/images/status.gif)
+
 ### Animation
 ```python
 # animate
