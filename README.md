@@ -8,4 +8,4 @@ import streamlit as st
 st.title('Hello World,')
 st.write("It's streamlit app")
 ```
-![Check Elasticsearch](/images/hello.jpg)
+![](/images/0.jpg)
