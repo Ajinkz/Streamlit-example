@@ -119,6 +119,4 @@ st.balloons()
 * [AWS](https://mlwhiz.com/blog/2020/02/22/streamlitec2/)
 * [Heroku](https://towardsdatascience.com/quickly-build-and-deploy-an-application-with-streamlit-988ca08c7e83)
 
-## about me
 
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="ajinkyanpathak"><a class="LI-simple-link" href='https://in.linkedin.com/in/ajinkyanpathak?trk=profile-badge'>Ajinkya Pathak</a></div>
