@@ -110,5 +110,9 @@ st.balloons()
 
 
 ## Reference
-1 [official site](https://www.streamlit.io/)
-2 [Docs](https://docs.streamlit.io/en/latest/)
+* [official site](https://www.streamlit.io/)
+* [Docs](https://docs.streamlit.io/en/latest/)
+
+## Deployment
+* [AWS](https://mlwhiz.com/blog/2020/02/22/streamlitec2/)
+* [Heroku](https://towardsdatascience.com/quickly-build-and-deploy-an-application-with-streamlit-988ca08c7e83)
