@@ -30,7 +30,7 @@ df = pd.DataFrame({
 # display table
 df
 ```
-![show tables from dataframe](/images/2.jpg)
+![show tables from dataframe](/images/2.JPG)
 
 ### Charts
 
