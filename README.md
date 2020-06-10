@@ -107,3 +107,8 @@ status_text.text('Done!')
 st.balloons()
 ```
 ![Display animation](/images/5_animate.gif)
+
+
+## Reference
+1 [official site](https://www.streamlit.io/)
+2 [Docs](https://docs.streamlit.io/en/latest/)
