@@ -155,6 +155,23 @@ st.balloons()
 ```
 ![Display animation](/images/5_animate.gif)
 
+### Display media
+```python
+# Image (jpg/png)
+image = Image.open('env.jpg')
+st.image(image, width=None, use_column_width=False, clamp=False, channels='RGB', format='JPEG', caption='Human & Environment')
+
+# Audio (mp3/wav/ogg)
+audio_file = open('bensound-summer.mp3', 'rb')
+audio_bytes = audio_file.read()
+st.audio(audio_bytes,  format='audio/mp3', start_time=0)
+
+# Video (mp4)
+video_file = open('forest.mp4', 'rb')
+video_bytes = video_file.read()
+st.video(video_bytes, format='video/mp4', start_time=0)
+```
+
 
 ## Reference
 * [Official site](https://www.streamlit.io/)
